@@ -341,15 +341,19 @@ body{
     background-color: rgb(34, 34, 34);
     margin-top: 90px;
     margin: 0 auto;
+    margin-top: 90px;
 }
 .bmi-with{
     width: 1440px;
     margin: 0 auto;
-    
+    display: flex;
+    justify-content: center;
+    gap: 150px;
 }
 .cart-tittle{
     font-size: 1.75rem;
     color: white;
+    margin-top: 60px;
 }
 
 /* table */
@@ -364,6 +368,14 @@ td, th{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* form */
+.common{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
 /* CSS end */
 
 
