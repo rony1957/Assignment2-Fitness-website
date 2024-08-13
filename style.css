@@ -359,6 +359,7 @@ body{
 /* table */
 table{
     border-collapse: collapse;
+    margin-top: 55px;
 }
 td, th{
     border:1px solid rgba(255, 255, 255, 0.1);
@@ -375,6 +376,72 @@ td, th{
     grid-template-columns: repeat(2, 1fr);
 }
 
+.common input{
+    height: 50px;
+    width: 280px;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+.common input::placeholder{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+.calculate-form{
+    margin-top: 34px;
+}
+.sex-frm{
+    display: flex;
+    align-items: center;
+}
+.fa-chevron-down{
+    margin-left: -55px;
+    margin-top: -12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.calculate-sub{
+    font-size: 14px;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.factor input{
+    height: 50px;
+    width: 575px;
+    border-radius: 8px;
+    background: transparent;
+    background-color:  rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.factor input::placeholder{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#down{
+    margin-left: -45px;
+    margin-top: -12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.calculate-btn{
+    padding: 15px 70px 15px 70px;
+    border-radius: 42px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+    font-size: 18px;
+    color: white;
+    margin-top: 35px;
+}
 
 /* CSS end */
 
