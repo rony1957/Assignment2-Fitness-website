@@ -251,6 +251,7 @@ body{
     .run-text{
         margin-left: 54px;
         margin-top: 50px;
+        width: 370px;
     }
 
     .run-tittle{
@@ -520,6 +521,36 @@ td, th{
     display: none;
 }
 
+/* BMI Table and form */
+.bmi-with{
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.cart-tittle, table, .calculate-sub{
+    margin-left: 50px;
+}
+.bmi-chart{
+    width: 100%;
+    height: 1050px;
+}
+
+.common input{
+    margin-left: 50px;
+    width: 320px;
+   
+}
+.sex-frm, .weight{
+    margin-left: -40px;
+}
+.factor input{
+    margin-left: 50px;
+    width: 665px;
+}
+.calculate-btn{
+    margin-left: 50px;
+}
+
 }
 
 
@@ -614,7 +645,6 @@ td, th{
   }
   .run-subtittle{
     font-size: 14px;
-    margin: 14px 0px;
   }
  
   .run-image img{
@@ -632,7 +662,51 @@ td, th{
     display: none;
 }
 
-/*  */
+/* table and from */
+.bmi-with{
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.bmi-chart{
+    width: 100%;
+    height: 840px;
+}
+
+.common input{
+    width: 180px;
+    height: 40px;
+    margin-left: 30px;
+}
+.factor input{
+    width: 365px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+ table, .calculate-sub, .cart-tittle{
+    margin-left: 30px;
+}
+.bmi-tittle{
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+.bmi-subtittle{
+    margin-left: 20px;
+}
+
+.bmi{
+    width: 380px;
+}
+.sex-frm, .weight{
+    margin-left: -40px;
+}
+.calculate-btn{
+    margin-left: 30px;
+}
+
+
 }
 /* --------------------Phone version Media Query------------------------ */
 
