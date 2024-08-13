@@ -340,8 +340,30 @@ body{
     width: 100%;
     background-color: rgb(34, 34, 34);
     margin-top: 90px;
+    margin: 0 auto;
+}
+.bmi-with{
+    width: 1440px;
+    margin: 0 auto;
+    
+}
+.cart-tittle{
+    font-size: 1.75rem;
+    color: white;
 }
 
+/* table */
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border:1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    height: 40px;
+    width: 160px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
 /* CSS end */
 
 
