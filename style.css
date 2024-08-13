@@ -334,8 +334,13 @@ body{
     margin-top: 14px;
 }
 
-
-
+/* bmi chart */
+.bmi-chart{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    margin-top: 90px;
+}
 
 /* CSS end */
 
