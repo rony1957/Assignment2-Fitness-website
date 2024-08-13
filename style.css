@@ -290,6 +290,7 @@ body{
         font-size: 3rem;
         font-weight: 900;
         color: white;
+        
     }
     .training-subtittle{
         font-size: 14px;
@@ -297,42 +298,41 @@ body{
         color: rgba(255, 255, 255, 0.5);
         letter-spacing: 0.3px;
         margin-top: 14px;
+        
+    }
+
+    .image-collage{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
     }
 
     .image-1{
         height: 218px;
-        width: 323px;
+        width: 100%;
     }
-    .image-2{
-        height: 218px;
-        width: 40%;
-        background-color: rgba(6, 255, 210, 0.5);
-    }
-    .image-3{
-
-    }
-
-    .image-4{
-
-    }
-
-    .image-5{
-
-    }
-
-    .image-6{
-
-    }
-
-
-
-
-
-
-
+    
 /* Training and exercise */
 
-
+/* BMI Calculator */
+.bmi{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.bmi-tittle{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+.bmi-subtittle{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+}
 
 
 
@@ -407,6 +407,13 @@ body{
     align-items: center;
     font-size: 12px;
 }
+
+
+/* Exercise area */
+.training{
+    display: none;
+}
+
 }
 
 
@@ -513,6 +520,13 @@ body{
 .join-btn{
     padding: 14px 120px 14px 120px;
 }
+
+/* exercise */
+.training{
+    display: none;
+}
+
+/*  */
 }
 /* --------------------Phone version Media Query------------------------ */
 
