@@ -862,10 +862,10 @@ width: 90%;
         font-size: 6rem;
     }
    .download{
-    margin-left: 5px;
+    margin-left: 10px;
    }
    .join{
-    margin-left: 8px;
+    margin-left: 10px;
    }
 
    /* Habbit text */
@@ -939,7 +939,7 @@ width: 90%;
     margin-left: 20px;
 }
 .factor input{
-    width: 360px;
+    width: 350px;
     height: 40px;
     margin-left: 20px;
 }
