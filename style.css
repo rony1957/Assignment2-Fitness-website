@@ -265,8 +265,6 @@ body{
         letter-spacing: 0.3px;
         color: rgba(255, 255, 255, 0.5);
         margin-top: 20px;
-        align-items: center;
-        justify-content: center;
     }
 
     .join-btn{
@@ -499,6 +497,73 @@ td, th{
    
     
 }
+
+
+
+/* footer area  */
+
+.footer-area{
+    width: 100%;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 90px;
+}
+.top{
+    margin-top: 70px;
+}
+.footer-discription{
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-tittle{
+    font-size: 4.3rem;
+    font-weight: 900;
+    color: rgb(230, 83, 60);
+}
+.footer-sub{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.started{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-btn ul li{
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.footer-btn ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 22px;
+}
+
+.footer-line{
+    width: 1060px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.1);
+    margin-top: 70px;
+}
+.reserved{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-top: 25px;
+}
+
 /* CSS end */
 
 
