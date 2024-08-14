@@ -444,6 +444,56 @@ td, th{
     margin-top: 35px;
 }
 
+
+/* Team area */
+.team-tittle{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+.team-sub{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 15px;
+}
+.photo{
+    width: 1060px;
+    height: 610px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 18px;
+}
+.photo-1, .photo-2, .photo-3, .photo-4, .photo-5, .photo-6{
+    height: 280px;
+    width: 335px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.trainer-1{
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+    opacity: rgba(0, 0, 0, 0.2);
+}
+.trainer-tittle{
+    color: white;
+    margin-top: -55px;
+    margin-left: 20px;
+}
+.trainer{
+    color: rgb(141, 141, 141);
+    margin-left: 20px;
+    
+}
 /* CSS end */
 
 
