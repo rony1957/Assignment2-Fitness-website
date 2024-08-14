@@ -787,7 +787,23 @@ width: 90%;
     margin-left: 30px;
 }
 
+
+/* challenger area */
+.challenge-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
 }
+
+.challenge-text{
+    margin-left: 30px;
+}
+.challenge-card{
+    margin-left: 30px;
+}
+}
+
+
 
 
 /* footer area */
@@ -1005,9 +1021,7 @@ width: 90%;
     justify-content: center;
     align-items: center;
 }
-.run{
-    
-}
+
 .challenge-tittle{
     font-size: 2.7rem;
     margin-left: 20px;
