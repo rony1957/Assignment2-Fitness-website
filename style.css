@@ -446,6 +446,7 @@ td, th{
 
 
 /* Team area */
+
 .team-tittle{
     color: white;
     text-align: center;
@@ -478,20 +479,24 @@ td, th{
     margin-left: 10px;
 }
 
+.trainer-text{
+    margin-top: -55px;
+    margin-left: 15px;
+}
+
 .trainer-1{
     width: 100%;
     height: 270px;
     border-radius: 18px;
-    opacity: rgba(0, 0, 0, 0.2);
+    
 }
 .trainer-tittle{
     color: white;
-    margin-top: -55px;
-    margin-left: 20px;
+    
 }
 .trainer{
     color: rgb(141, 141, 141);
-    margin-left: 20px;
+   
     
 }
 /* CSS end */
@@ -599,6 +604,20 @@ td, th{
 }
 .calculate-btn{
     margin-left: 50px;
+}
+
+/* team area */
+.photo{
+    width: 100%;
+}
+.photo-1, .photo-2, .photo-3, .photo-4, .photo-5, .photo-6{
+    width: 200px;
+    height: 220px;
+    margin-left: 25px;
+}
+
+.trainer-1{
+    height: 230px;
 }
 
 }
@@ -754,6 +773,19 @@ td, th{
 }
 .calculate-btn{
     margin-left: 30px;
+}
+
+/* Team area */
+.photo{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    height: 1950px;
+    
+}
+
+.trainer-1{
+    height: 280px;
 }
 
 
