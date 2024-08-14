@@ -82,7 +82,10 @@ body{
     font-weight: 900;
     color: white;
 }
-
+.miama{
+    font-family: 'Miama', sans-serif;
+    font-size: 9rem;
+}
 
 .header-sub{
     margin-top: 28px;
@@ -499,6 +502,83 @@ td, th{
 }
 
 
+/* ------------------------------------Challenge part----------------------------------- */
+    .challenge-part{
+        display: flex;
+        justify-content: space-between;
+        width: 1060px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .run{
+        height: 480px;
+        border-radius: 18px;
+        
+    }
+
+    .stop{
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .challenge-tittle{
+        font-size: 3rem;
+        font-weight: 900;
+        color: white;
+        margin-top: 30px;
+    }
+
+    .community{
+        background-color: rgb(230, 83, 60);
+        padding: 15px 40px 15px 40px;
+        border: none;
+        margin-top: 45px;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 42px;
+    }
+
+    .inspired-card{
+        height: 220px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+        margin-bottom: 35px;
+    }
+
+    .inspired-tittle{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+        padding-top: 40px;
+        margin-left: 30px;
+    }
+    .inspired-sub{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+
+    .explore{
+        margin-top: 35px;
+        margin-left: 30px;
+        padding: 10px 25px 10px 25px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: rgb(230, 83, 60);
+        border: none;
+        border-radius: 42px;
+    }
+
+
+/* ------------------------------------Challenge part----------------------------------- */
+
+
 
 /* footer area  */
 
@@ -762,6 +842,9 @@ width: 90%;
         right: 48%;
     }
 
+    .miama{
+        font-size: 6rem;
+    }
    .download{
     margin-left: 5px;
    }
@@ -914,6 +997,24 @@ width: 90%;
     font-size: 18px;
 }
 
+
+/* challenge part */
+.challenge-part{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.run{
+    
+}
+.challenge-tittle{
+    font-size: 2.7rem;
+    margin-left: 20px;
+}
+.stop, .community{
+    margin-left: 20px;
+}
 
 }
 /* --------------------Phone version Media Query------------------------ */
