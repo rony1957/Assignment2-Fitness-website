@@ -531,6 +531,10 @@ td, th{
     margin-top: 20px;
     line-height: 24px;
 }
+.responsive-issue{
+    display: flex;
+    gap: 200px;
+}
 
 .started{
     font-size: 2rem;
@@ -684,8 +688,29 @@ td, th{
 .trainer-1{
     height: 230px;
 }
+/* footer */
+
+.footer-discription{
+    flex-direction: column;
+}
+.footer-line{
+width: 90%;
+}
+.footer-area{
+    height: 850px;
+}
+.footer-discription{
+    width: 100%;
+   
+}
+.footer-tittle, .footer-sub, .footer-btn ul li, .footer-line, .reserved, .started{
+    margin-left: 30px;
+}
 
 }
+
+
+/* footer area */
 
 
 
@@ -852,6 +877,41 @@ td, th{
 
 .trainer-1{
     height: 280px;
+}
+
+/* footer area */
+.footer-discription{
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+.responsive-issue{
+    flex-direction: column;
+}
+.footer-line{
+    width: 90%;
+}
+.footer-area{
+    height: 1200px;
+}
+.responsive-issue{
+    gap: 5px;
+}
+
+.footer-tittle{
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+.footer-sub{
+    
+    font-size: 13px;
+}
+.footer-tittle, .footer-sub, .footer-btn ul li, .footer-line, .reserved, .started{
+    margin-left: 20px;
+}
+
+.reserved{
+    font-size: 18px;
 }
 
 
