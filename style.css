@@ -665,11 +665,11 @@ td, th{
     
     .workout-video{
         top: 14%;
-        left: 50%;
+        left: 48%;
     }
     .video-tutorial{
         top: 40%;
-        right: 50%;
+        right: 48%;
     }
 
    .download{
@@ -707,7 +707,7 @@ td, th{
     flex-direction: column;
   }
   .run-text{
-    margin-left: 45px;
+    margin-left: 20px;
   }
   .run-tittle{
     font-size: 2.3rem;
@@ -724,6 +724,7 @@ td, th{
 }
 .join-btn{
     padding: 14px 120px 14px 120px;
+    margin-left: 15px;
 }
 
 /* exercise */
@@ -744,18 +745,18 @@ td, th{
 }
 
 .common input{
-    width: 180px;
+    width: 170px;
     height: 40px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .factor input{
-    width: 365px;
+    width: 360px;
     height: 40px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
  table, .calculate-sub, .cart-tittle{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .bmi-tittle{
     font-size: 2.5rem;
@@ -769,15 +770,15 @@ td, th{
     width: 380px;
 }
 .sex-frm, .weight{
-    margin-left: -40px;
+    margin-left: -25px;
 }
 .calculate-btn{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 /* Team area */
 .photo{
-    width: 90%;
+    width: 95%;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     height: 1950px;
