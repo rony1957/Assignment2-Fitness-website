@@ -861,8 +861,14 @@ width: 90%;
     .miama{
         font-size: 6rem;
     }
+    .now{
+        padding: 10px 20px;
+    font-size: 14px;
+    }
    .download{
     margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
    }
    .join{
     margin-left: 10px;
